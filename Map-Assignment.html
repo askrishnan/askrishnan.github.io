@@ -30,7 +30,7 @@
     <script>
     var map = L.map('map').setView([42.919, -73.2400], 1);
 
-    var marker = L.marker([-74.22719, 40.789944]).addTo(map);
+    var marker = L.marker([40.789944, -74.22719]).addTo(map);
     marker.bindPopup("<b>West Orange, NJ</b><br>I'm from here.").openPopup();
 
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
